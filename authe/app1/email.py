@@ -10,3 +10,5 @@ def send_mail_password(email, token):
     recipient_list = []
     send_mail(subject , message, email_from, recipient_list)
     return True
+
+
